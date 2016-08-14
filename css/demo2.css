@@ -1,0 +1,38 @@
+.demo-2-ribbon {
+	position: absolute;
+    left: 26px;
+    top: -6px;
+    padding: 16px 22px 0 22px;
+    height: 110px;
+    width: 18px;
+    color: #fff;
+    font-size: 18px;
+    text-align: center;
+    background-color: #f47530;
+    border-radius: 4px 0 0 0;
+}
+
+.demo-2-ribbon:before {
+	content: '';
+    position: absolute;
+    right: -6px;
+    top: 0;
+    height: 0;
+    width: 0;
+    border: 3px solid #8d5a20;
+    border-top: 3px solid transparent;
+    border-right: 3px solid transparent;
+}
+
+.demo-2-ribbon:after {
+	content: '';
+    position: absolute;
+    left: 0;
+    bottom: -42px;
+    height: 0;
+    width: 0;
+    border-top: 12px solid #f47530;
+    border-right: 31px solid #f47530;
+    border-bottom: 30px solid transparent;
+    border-left: 31px solid #f47530;
+}

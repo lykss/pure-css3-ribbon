@@ -1,0 +1,37 @@
+.demo-3-ribbin {
+	position: absolute;
+    left: -8px;
+    top: 22px;
+    padding: 0 0 0 14px;
+    height: 50px;
+    width: 136px;
+    line-height: 50px;
+    color: #fff;
+    font-size: 18px;
+    background-color: #59324c;
+}
+
+.demo-3-ribbin:before {
+	content: '';
+    position: absolute;
+    left: 0;
+    top: -8px;
+    height: 0;
+    width: 0;
+    border: 4px solid #000;
+    border-top: 4px solid transparent;
+    border-left: 4px solid transparent;
+}
+
+.demo-3-ribbin:after {
+	content: '';
+    position: absolute;
+    right: -32px;
+    top: 0;
+    height: 0;
+    width: 0;
+    border-top: 25px solid transparent;
+    border-right: 16px solid transparent;
+    border-bottom: 25px solid transparent;
+    border-left: 16px solid #59324c;
+}

@@ -1,0 +1,53 @@
+.demo-6-wrapper {
+	height: 198px;
+    width: 308px;
+    position: absolute;
+    right: -8px;
+    top: -8px;
+    overflow: hidden;
+}
+
+.demo-6-ribbin-wrapper {
+	z-index: 1;
+    position: absolute;
+    right: -60px;
+    top: 30px;
+    padding: 4px 0 2px 0;
+    height: 45px;
+    width: 233px;
+    background-color: #57dd43;
+    transform: rotateZ(45deg);
+}
+
+.demo-6-ribbin {
+	display: inline-block;
+    height: 42px;
+    width: 233px;
+    border-top: 1px dashed #fff;
+    border-bottom: 1px dashed #fff;
+    line-height: 42px;
+    text-align: center;
+    vertical-align: middle;
+    font-size: 18px;
+    color: #fff;
+    background-color: #57dd43;
+}
+
+.demo-6-axle-top {
+	position: absolute;
+    right: 126px;
+    height: 8px;
+    width: 30px;
+    background-color: #4d6530;
+    border-radius: 8px 0 0 0;
+}
+
+.demo-6-axle-right {
+	position: absolute;
+    right: 0;
+    top: 126px;
+    height: 30px;
+    width: 8px;
+    background-color: #4d6530;
+    border-radius: 0 0 8px 0;
+}

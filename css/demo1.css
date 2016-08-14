@@ -1,0 +1,47 @@
+.demo-1-ribbon {
+	position: absolute;
+    right: 10px;
+    top: 0;
+    height: 26px;
+    width: 92px;
+    line-height: 26px;
+    font-size: 14px;
+    color: #fff;
+    text-align: center;
+    vertical-align: middle;
+    background-color: #f8463f;
+}
+
+.demo-1-ribbon:before {
+	content: '';
+    position: absolute;
+    left: 0;
+    bottom: -24px;
+    height: 0;
+    width: 0;
+    border-top: 12px solid #f8463f;
+    border-right: 53px solid transparent;
+    border-bottom: 12px solid transparent;
+    border-left: 53px solid transparent;
+}
+
+.demo-1-ribbon-axle {
+	position: absolute;
+    right: 0;
+    top: -6px;
+    height: 6px;
+    width: 96px;
+    background-color: #f8463f;
+    border-radius: 0 6px 0 0;
+}
+
+.demo-1-ribbon-axle:after {
+	content: '';
+    position: absolute;
+    left: -6px;
+    top: 0;
+    height: 6px;
+    width: 10px;
+    background-color: #c02031;
+    border-radius: 5px 5px 0 0;
+}

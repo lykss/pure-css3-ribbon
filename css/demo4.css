@@ -1,0 +1,14 @@
+.demo-4-ribbin {
+	position: absolute;
+    left: -8px;
+    top: 16px;
+    padding: 0 0 0 16px;
+    height: 40px;
+    width: 88px;
+    line-height: 40px;
+    color: #fff;
+    font-size: 18px;
+    background-color: #00b3ed;
+    border-radius: 8px 0 0 8px;
+    box-shadow: -1px 2px 4px rgba(0,0,0,0.5);
+}
